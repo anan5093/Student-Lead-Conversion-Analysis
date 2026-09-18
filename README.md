@@ -1,13 +1,13 @@
 # Student Lead Management & Conversion Analysis Report
 
-A comprehensive data analytics project focused on executing data hygiene, implementing robust deduplication logic, and building a multi-dimensional performance tracking dashboard for an educational consulting admissions pipeline.
+A full data analytics project involving data cleaning, robust de-duplication methodology, and creation of a multi-dimensional dashboard for performance monitoring of educational consulting admission pipeline.
 
  **[Click Here to View the Live Google Sheets Dashboard](https://docs.google.com/spreadsheets/d/14gp_H1U4MpJUli8tOo1gFI10CMImS7MxMYOKMUErdhc/edit?usp=sharing)**
 
 ##  Project Objective
-The goal of this project was to transform 66 raw, unstandardized student inquiry records into an operational intelligence framework. The analysis standardizes inconsistent academic program entries, runs cross-tabulated communication audits, evaluates individual counsellor workloads, and establishes an active priority queue to reduce lead stagnation.
+In order to make the project happen, we needed to convert 66 unstandardized records of students' inquiries into an operational intelligence system. This would entail such activities as standardization of inconsistent program data entries, cross tabulation of communications, workload assessment of counselors, as well as the creation of an active queue.
 
-## 🛠️ Data Governance & Methodology
+##  Data Governance & Methodology
 * **Taxonomy Standardization:** Mapped disparate raw course entries into structured core categories (e.g., normalising variant programs into clean tracks like General Education Counselling and Bachelor of Hospital Administration).
 * **Geographic Resolution:** Verified and completed missing regional data fields, standardizing all locations to explicit 'State, India' formatting.
 * **Non-Destructive Deduplication:** Implemented a system-level duplicate checking array based exclusively on `Student Name`. Using a conditional count sequence, the first instance of a name is designated as `Unique`, while subsequent occurrences are flagged as `Duplicate` or marked for operational `Review` without purging historical activity logs.
